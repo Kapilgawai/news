@@ -1,0 +1,168 @@
+.nav-link:hover {
+  cursor: pointer;
+}
+
+/* styles.css */
+
+/* Reset some default browser styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #343a40;
+  color: #ffffff;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.navbar-toggler-icon {
+  background-color: #343a40;
+  border-radius: 0.9px;
+}
+
+.nav-link {
+  color: #ffffff;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #17a2b8;
+}
+
+/* NewsItem styles */
+.card {
+  background-color: #212529;
+  color: #ffffff;
+  border: 1px solid #343a40;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.card {
+  background-color: #212529;
+  color: #ffffff;
+  border: 1px solid #343a40;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.10); 
+}
+
+.card {
+  background-color: #212529;
+  color: #ffffff;
+  border: 1px solid #343a40;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9); 
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 1); 
+}
+
+
+/* NewsBoard styles */
+.news-board {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Search input styles */
+.form-control {
+  width: 200px;
+}
+
+/* Footer styles */
+.footer {
+  margin-top: 20px;
+  text-align: center;
+  padding: 10px 0;
+  background-color: #343a40;
+  color: #ffffff;
+}
+
+
+
+/* Footer styles */
+.footer {
+  margin-top: 20px;
+  text-align: center;
+  padding: 20px 0;
+  background-color: #343a40;
+  color: #ffffff;
+}
+
+.social-links {
+  margin-top: 10px;
+}
+
+.social-links a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #ffffff;
+  font-size: 1.25rem;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #17a2b8;
+}
+
+
+.time-clock {
+  position: fixed;
+  top: 70px; 
+  right: 20px;
+  background-color: rgba(69, 71, 73, 0.8); 
+  backdrop-filter: blur(9px); 
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
